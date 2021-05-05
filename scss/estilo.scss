@@ -1,0 +1,90 @@
+@import "_variables";
+
+.footerLi {
+    list-style: none;
+    text-decoration: none;
+
+    &__item{
+            width: 50px;
+            height: 50px;
+
+    }
+}
+
+.centrandoCarousel {
+    display: flex;
+    justify-content: center;
+}
+.fondoHeader{
+    display: block;
+    margin: 0 auto;
+    
+}
+p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+}
+h2{
+    color: $naranja ;
+    text-decoration: underline;
+    text-shadow: black;
+    background-color: white;    
+}
+nav{
+    background-color:$celeste;
+
+}
+body{
+    background: $celeste;
+    background: linear-gradient(0deg, rgba(255,190,74,1) 0%, rgba(110,194,192,1) 62%);
+    margin: 0%;       
+}
+footer{
+    background-color: $naranja;
+    margin: 0%;
+}
+header{
+    max-width: 100%;
+    background-size: 100%;
+    background-color: #6ec2c0;
+}
+
+.container{
+
+    &__inicio{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: $gris;
+    text-align: center;
+    }
+    &__img{
+        width: 500px;
+        height: 400px;
+        
+    }
+
+}
+.menu{
+    background-color: $gris;
+    color: $celeste;
+}
+h1{
+    margin: 5px 5px;
+}
+video{
+    display: block;
+    margin: 0 auto;
+}
+
+.table{
+
+    &__head{
+background-color: $naranja;
+font-family: 'Raleway', sans-serif;
+    }
+
+    &__item{
+background-color: $gris;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
